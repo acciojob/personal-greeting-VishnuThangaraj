@@ -12,7 +12,6 @@ const App = () => {
     <div>
       {
         <>
-          <p>Enter your name:</p>
           <input type="{text}" onChange={onChangeEvent} />
           <p className="display">{name}</p>
         </>
